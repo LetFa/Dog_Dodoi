@@ -66,13 +66,17 @@
 }
 
 .fundo-cinza{
-  background-color: #f9f9f9;
+  background-image: url("img/contato.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   padding: 20px;
-  height: 100vh;
+  height: 100%;
 }
 .fundo-cinza h2{
   text-align: center;
-  color: #333;
+  color: #fff;
   margin-bottom: 1rem;
 }
 
@@ -89,12 +93,24 @@
 }
 
 .group input, textarea{
+  background-color: #ffffff4a;
   padding: 10px;
   width: 100%;
   max-width: 500px;
   border: 1px solid tomato;
-  outline-color: #333;
+  outline-style: none;
 }
+.group input::placeholder{
+ color: rgb(49, 49, 49);
+ font-size: 15px;
+ font-weight: 400;
+}
+.group textarea::placeholder{
+  color: rgb(49, 49, 49);
+  font-size: 15px;
+  font-weight: 400;
+ }
+
 .enviar{
   width: 100px;
   margin: auto;
@@ -109,4 +125,18 @@
 
 .enviar:hover{
   background-color: #333;
+}
+
+.rodape{
+  background-color: tomato;
+  padding: 5px;
+}
+
+.rodape p{
+  color: #333;
+  text-align: center;
+  margin-top: 1rem;
+}
+.rodape span{
+  color: #fff;
 }

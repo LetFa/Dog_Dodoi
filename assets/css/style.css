@@ -21,7 +21,7 @@
 }
 .links li,a{
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 .btn{
@@ -34,10 +34,14 @@
 /* inicio */
 
 .inicio{
-   background-color: #bbb;
+   background-image: url("../img/banner.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
    text-align: center;
-   padding: 50px;
-   height: 50vh;
+  padding: 50px;
+  height: 70vh;
 }
 
 .inicio h1{
@@ -46,6 +50,7 @@
 }
 .inicio_texto{
   margin-bottom: 1rem;
+  color: #424E66;
 }
 
 .btn_inicio{
@@ -56,4 +61,43 @@
   font-size: 12px;
   text-transform: uppercase;
   color: #fff;
+}
+
+/* conteudo */
+
+.flex_2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 10px;
+   padding: 80px; 
+}
+.flex_2 h4{
+  color: #ea1c81;
+  margin-bottom: 1rem;
+}
+
+.texto{
+  width: 100%;
+  max-width: 500px;
+  color: #424E66;
+}
+
+.beneficios{
+  background-color: #FAFBFF;
+  padding: 30px;
+  height: 100vh;
+}
+.beneficios h2{
+  text-align: center;
+  color: #ea1c81;
+  margin-bottom: 1rem;
+}
+.texto_be{
+  text-align: center;
+  width: 100%;
+  max-width: 380px;
+  margin: auto;
+  color: #424E66;
 }

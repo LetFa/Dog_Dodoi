@@ -41,7 +41,8 @@
    background-attachment: fixed;
    text-align: center;
   padding: 50px;
-  height: 70vh;
+  height: 100%;
+  height: 50vh;
 }
 
 .inicio h1{
@@ -87,7 +88,7 @@
 .beneficios{
   background-color: #FAFBFF;
   padding: 30px;
-  height: 100vh;
+  height: 100%;
 }
 .beneficios h2{
   text-align: center;
@@ -97,7 +98,61 @@
 .texto_be{
   text-align: center;
   width: 100%;
-  max-width: 380px;
+  max-width: 440px;
   margin: auto;
   color: #424E66;
+  letter-spacing: 2px;
+}
+
+.flex_3{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 3rem;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.titulo{
+  color: #ea1c81;
+  font-size: 25px;
+  letter-spacing: 2px;
+  width: 100%;
+  max-width: 175px;
+  text-align: center;
+  margin-top: 1rem;
+}
+.titulo_suporte{
+  color: #ea1c81;
+  font-size: 25px;
+  letter-spacing: 2px;
+  width: 100%;
+  max-width: 180px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.formulario{
+  height: 50vh;
+  padding: 20px;
+}
+
+.formulario h2{
+  color: #424E66;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.form_texto{
+  text-align: center;
+  color: #424E66;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+}
+
+.flex_4{
+  display: flex;
+
 }
